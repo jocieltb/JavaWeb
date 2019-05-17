@@ -1,0 +1,8 @@
+127.0.0.1 - - [14/May/2019:19:24:34 -0300] "GET / HTTP/1.1" 404 1036
+0:0:0:0:0:0:0:1 - - [14/May/2019:19:24:58 -0300] "GET /jsfteste/WEB-INF/classes/br/edu/ads/web/SomaBean.java HTTP/1.1" 404 1013
+0:0:0:0:0:0:0:1 - - [14/May/2019:19:25:08 -0300] "GET /favicon.ico HTTP/1.1" 404 1047
+0:0:0:0:0:0:0:1 - - [14/May/2019:19:25:25 -0300] "GET /jsfteste/WEB-INF/classes/br/edu/ads/web/inicio.jsf HTTP/1.1" 404 1013
+0:0:0:0:0:0:0:1 - - [14/May/2019:19:25:28 -0300] "GET /jsfteste/WEB-INF/classes/br/edu/ads/web/inicio.jsf HTTP/1.1" 404 1013
+0:0:0:0:0:0:0:1 - - [14/May/2019:19:25:53 -0300] "GET /jsfteste/inicio.jsf HTTP/1.1" 200 858
+0:0:0:0:0:0:0:1 - - [14/May/2019:19:26:04 -0300] "POST /jsfteste/inicio.jsf;jsessionid=4143383D77E175CC05171ABD2AFCBB1A HTTP/1.1" 200 838
+0:0:0:0:0:0:0:1 - - [14/May/2019:19:28:56 -0300] "POST /jsfteste/inicio.jsf HTTP/1.1" 200 837

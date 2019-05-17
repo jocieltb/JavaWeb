@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Encapsulate field &apos;br.edu.ads.web.SomaBean.soma&apos; in &apos;br.edu.ads.web.SomaBean&apos;&#x0D;&#x0A;- Original project: &apos;jsfteste&apos;&#x0D;&#x0A;- Original element: &apos;br.edu.ads.web.SomaBean.soma&apos;&#x0D;&#x0A;- Getter method name: &apos;getSoma&apos;&#x0D;&#x0A;- Setter method name: &apos;setSoma&apos;&#x0D;&#x0A;- Field visibility: &apos;public&apos;&#x0D;&#x0A;- Use getter and setter methods in declaring type" comments="false" declaring="true" description="Encapsulate field &apos;soma&apos;" flags="589830" getter="getSoma" id="org.eclipse.jdt.ui.self.encapsulate" input="/JavaSource&lt;br.edu.ads.web{SomaBean.java[SomaBean^soma" insertion="4" setter="setSoma" stamp="1557451615098" version="1.0" visibility="1"/>
+</session>

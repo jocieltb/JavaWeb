@@ -1,0 +1,38 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:p="http://primefaces.org/ui"> 
+
+<h:head>
+	<title>Calcular distância entre dois pontos (x1y1, x2y2)</title>
+</h:head> 
+<h:body>
+ 	
+ 	<h1>Calcular distância entre dois pontos (x1y1, x2y2)</h1>
+	
+	<h:outputLabel for="x1" value="x1:" />
+	<h:inputText id="x1" value="#{distancia.x1}" />
+	<br />
+	
+	<h:outputLabel for="y1" value="y1:" />
+	<h:inputText id="y1" value="#{distancia.y1}" />
+	<br />
+	
+	<h:outputLabel for="x2" value="x2:" />
+	<h:inputText id="x2" value="#{distancia.x2}" />
+	<br />
+	
+	<h:outputLabel for="y2" value="y2:" />
+	<h:inputText id="y2" value="#{distancia.y2}" />
+	<br />
+	
+	<h:outputLabel for="d" value="Distância:" />
+	<h:outputText id="d" value="#{distancia.distancia}" />
+	<br />
+	
+	<h:commandButton action="#{distancia.calcularDistancia()}" value="Calcular" />
+
+</h:body> 
+</html>

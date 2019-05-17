@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kb-project>
+ <depends-on-projects/>
+ <used-by-projects/>
+ <paths>
+  <path value="C:/Users/1829799/Documents/eclipse-workspace/lista01web/WebContent/WEB-INF/lib/common-annotations.jar"/>
+  <path value="C:/Users/1829799/Documents/eclipse-workspace/lista01web/WebContent/WEB-INF/lib/primefaces-7.0.jar">
+   <libraries>
+    <library class="faces-config">
+     <id class="model-object"/>
+    </library>
+    <library class="facelet">
+     <id class="model-object"/>
+    </library>
+   </libraries>
+  </path>
+  <path value="C:/Users/1829799/Documents/eclipse-workspace/lista01web/WebContent/WEB-INF/lib/commons-digester.jar"/>
+  <path value="C:/Users/1829799/Documents/eclipse-workspace/lista01web/WebContent/WEB-INF/lib/jstl.jar"/>
+  <path value="C:/Users/1829799/Documents/eclipse-workspace/lista01web/WebContent/WEB-INF/lib/commons-collections.jar"/>
+  <path value="C:/Users/1829799/Documents/eclipse-workspace/lista01web/WebContent/WEB-INF/lib/commons-logging.jar"/>
+  <path value="C:/Users/1829799/Documents/eclipse-workspace/lista01web/WebContent/WEB-INF/lib/commons-beanutils.jar"/>
+  <path value="C:/Users/1829799/Documents/eclipse-workspace/lista01web/WebContent/WEB-INF/lib/standard.jar">
+   <libraries>
+    <library class="tld">
+     <id class="model-object"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"/>
+    </library>
+   </libraries>
+  </path>
+ </paths>
+ <validation>
+  <core validator-id="jsf-verification"/>
+  <core validator-id="jboss.cdi.core"/>
+  <core validator-id="jboss.jsf.core"/>
+  <el>
+   <linked-el length="18" name="%0" offset="903" path="%1"/>
+   <linked-el length="18" name="%0" offset="697" path="%1"/>
+   <linked-el length="25" name="%0" offset="1012" path="%1"/>
+   <linked-el length="35" name="%0" offset="1078" path="%1"/>
+   <linked-el length="18" name="%0" offset="800" path="%1"/>
+   <linked-el length="18" name="%0" offset="594" path="%1"/>
+   <linked-el length="18" name="%2" offset="903" path="%1"/>
+   <linked-el length="18" name="%2" offset="697" path="%1"/>
+   <linked-el length="25" name="%2" offset="1012" path="%1"/>
+   <linked-el length="35" name="%2" offset="1078" path="%1"/>
+   <linked-el length="18" name="%2" offset="800" path="%1"/>
+   <linked-el length="18" name="%2" offset="594" path="%1"/>
+   <linked-el length="22" name="%3" offset="745" path="%4"/>
+   <linked-el length="22" name="%3" offset="857" path="%4"/>
+   <linked-el length="39" name="%3" offset="993" path="%5"/>
+   <linked-el length="23" name="%3" offset="524" path="%4"/>
+   <linked-el length="22" name="%3" offset="635" path="%4"/>
+   <linked-el length="31" name="%3" offset="923" path="%4"/>
+   <linked-el length="22" name="%3" offset="860" path="%5"/>
+   <linked-el length="22" name="%3" offset="730" path="%5"/>
+   <linked-el length="23" name="%3" offset="599" path="%5"/>
+   <linked-el length="22" name="%6" offset="745" path="%4"/>
+   <linked-el length="22" name="%6" offset="857" path="%4"/>
+   <linked-el length="39" name="%6" offset="993" path="%5"/>
+   <linked-el length="23" name="%6" offset="524" path="%4"/>
+   <linked-el length="22" name="%6" offset="635" path="%4"/>
+   <linked-el length="31" name="%6" offset="923" path="%4"/>
+   <linked-el length="22" name="%6" offset="860" path="%5"/>
+   <linked-el length="22" name="%6" offset="730" path="%5"/>
+   <linked-el length="23" name="%6" offset="599" path="%5"/>
+  </el>
+ </validation>
+ <aliases>
+  <alias path="/lista01web/JavaSource/br/edu/web/Distancia.java" value="%0"/>
+  <alias path="distancia" value="%2"/>
+  <alias path="/lista01web/WebContent/distancia.xhtml" value="%1"/>
+  <alias path="/lista01web/WebContent/pa.xhtml" value="%4"/>
+  <alias path="/lista01web/JavaSource/br/edu/web/ProgressaoBean.java" value="%3"/>
+  <alias path="/lista01web/WebContent/paPrime.xhtml" value="%5"/>
+  <alias path="progressaoBean" value="%6"/>
+ </aliases>
+ <includes/>
+ <uris>
+  <uri value="http://java.sun.com/jsf/core">
+   <prefix>f</prefix>
+  </uri>
+  <uri value="http://java.sun.com/jsf/html">
+   <prefix>h</prefix>
+  </uri>
+  <uri value="http://primefaces.org/ui">
+   <prefix>p</prefix>
+  </uri>
+ </uris>
+</kb-project>
