@@ -9,4 +9,5 @@
 <fullyQualifiedTypeName name="com.sun.prism.impl.BaseMesh.FaceMembers"/>
 <fullyQualifiedTypeName name="javax.faces.application.FacesMessage"/>
 <fullyQualifiedTypeName name="javax.faces.context.FacesContext"/>
+<fullyQualifiedTypeName name="javax.enterprise.context.ApplicationScoped"/>
 </qualifiedTypeNameHistroy>

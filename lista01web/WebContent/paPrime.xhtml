@@ -17,15 +17,17 @@
 		
 			<p:panelGrid columns="3" styleClass="ui-panelgrid-blank">
 				<p:outputLabel for="n1" value="a1:" />
-				<p:inputText id="n1" value="#{progressaoBean.a1}" />
+				<p:inputNumber id="n1" value="#{progressaoBean.cal}" thousandSeparator="." decimalSeparator="," decimalPlaces="2" />
+				
+				
 				<p:message for="n1" />
 
 				<p:outputLabel for="n2" value="n:" />
-				<p:inputText id="n2" value="#{progressaoBean.n}" />
+				<p:inputText id="n2" value="#{progressaoBean.n}" thousandSeparator="." decimalSeparator="," decimalPlaces="2" />
 				<p:message for="n2" />
 
 				<p:outputLabel for="n3" value="r:" />
-				<p:inputText id="n3" value="#{progressaoBean.r}" />
+				<p:inputText id="n3" value="#{progressaoBean.r}" thousandSeparator="." decimalSeparator="," decimalPlaces="2" />
 				<p:message for="n3" />
 
 			</p:panelGrid>
@@ -35,7 +37,6 @@
 			</f:facet>
 
 		</p:panel>
-
 		<p:messages globalOnly="true"/>
 	</h:form>
 	
