@@ -2,10 +2,129 @@
 <kb-project>
  <depends-on-projects/>
  <used-by-projects/>
- <paths/>
+ <paths>
+  <path value="C:/Users/1829799/Documents/apache-tomcat-7.0.94/lib/catalina-ha.jar"/>
+  <path value="C:/Users/1829799/Documents/apache-tomcat-7.0.94/lib/jasper.jar"/>
+  <path value="C:/Users/1829799/Documents/GitHub/JavaWeb/jsfteste/WebContent/WEB-INF/lib/javax.faces-2.1.13.jar">
+   <libraries>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-javax.faces-2.1.13.jar/meta-inf/html_basic.tld" project="jsfteste"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-javax.faces-2.1.13.jar/meta-inf/jsf_core.tld" project="jsfteste"/>
+    </library>
+    <library class="facelet">
+     <id class="model-object"
+      path="FileSystems/lib-javax.faces-2.1.13.jar/meta-inf/mojarra_ext.taglib.xml" project="jsfteste"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-javax.faces-2.1.13.jar/meta-inf/mojarra_ext.tld" project="jsfteste"/>
+    </library>
+   </libraries>
+  </path>
+  <path value="C:/Users/1829799/Documents/GitHub/JavaWeb/jsfteste/WebContent/WEB-INF/lib/commons-logging.jar"/>
+  <path value="C:/Users/1829799/Documents/apache-tomcat-7.0.94/lib/tomcat-coyote.jar"/>
+  <path value="C:/Users/1829799/Documents/apache-tomcat-7.0.94/lib/tomcat-i18n-ja.jar"/>
+  <path value="C:/Users/1829799/Documents/GitHub/JavaWeb/jsfteste/WebContent/WEB-INF/lib/commons-beanutils.jar"/>
+  <path value="C:/Users/1829799/Documents/apache-tomcat-7.0.94/lib/tomcat-jdbc.jar"/>
+  <path value="C:/Users/1829799/Documents/apache-tomcat-7.0.94/lib/tomcat-util.jar"/>
+  <path value="C:/Users/1829799/Documents/apache-tomcat-7.0.94/lib/websocket-api.jar"/>
+  <path value="C:/Users/1829799/Documents/apache-tomcat-7.0.94/lib/tomcat-dbcp.jar"/>
+  <path value="C:/Users/1829799/Documents/apache-tomcat-7.0.94/lib/tomcat7-websocket.jar"/>
+  <path value="C:/Users/1829799/Documents/apache-tomcat-7.0.94/lib/catalina.jar"/>
+  <path value="C:/Users/1829799/Documents/apache-tomcat-7.0.94/lib/el-api.jar"/>
+  <path value="C:/Users/1829799/Documents/apache-tomcat-7.0.94/lib/jsp-api.jar"/>
+  <path value="C:/Users/1829799/Documents/apache-tomcat-7.0.94/lib/catalina-tribes.jar"/>
+  <path value="C:/Users/1829799/Documents/apache-tomcat-7.0.94/lib/ecj-4.4.2.jar"/>
+  <path value="C:/Users/1829799/Documents/apache-tomcat-7.0.94/lib/annotations-api.jar"/>
+  <path value="C:/Users/1829799/Documents/GitHub/JavaWeb/jsfteste/WebContent/WEB-INF/lib/common-annotations.jar"/>
+  <path value="/jsfteste/WebContent/WEB-INF/faces-config.xml">
+   <libraries>
+    <library class="faces-config">
+     <id class="model-object"
+      path="FileSystems/WEB-INF/faces-config.xml" project="jsfteste"/>
+    </library>
+   </libraries>
+  </path>
+  <path value="C:/Users/1829799/Documents/apache-tomcat-7.0.94/lib/servlet-api.jar"/>
+  <path value="C:/Users/1829799/Documents/GitHub/JavaWeb/jsfteste/WebContent/WEB-INF/lib/commons-digester.jar"/>
+  <path value="C:/Users/1829799/Documents/apache-tomcat-7.0.94/lib/tomcat-i18n-es.jar"/>
+  <path value="C:/Users/1829799/Documents/apache-tomcat-7.0.94/lib/tomcat-i18n-ru.jar"/>
+  <path value="C:/Users/1829799/Documents/GitHub/JavaWeb/jsfteste/WebContent/WEB-INF/lib/jstl.jar"/>
+  <path value="C:/Users/1829799/Documents/GitHub/JavaWeb/jsfteste/WebContent/WEB-INF/lib/standard.jar">
+   <libraries>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-standard.jar/meta-inf/c-1_0-rt.tld" project="jsfteste"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-standard.jar/meta-inf/c-1_0.tld" project="jsfteste"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-standard.jar/meta-inf/c.tld" project="jsfteste"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-standard.jar/meta-inf/fmt-1_0-rt.tld" project="jsfteste"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-standard.jar/meta-inf/fmt-1_0.tld" project="jsfteste"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-standard.jar/meta-inf/fmt.tld" project="jsfteste"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-standard.jar/meta-inf/fn.tld" project="jsfteste"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-standard.jar/meta-inf/permittedtaglibs.tld" project="jsfteste"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-standard.jar/meta-inf/scriptfree.tld" project="jsfteste"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-standard.jar/meta-inf/sql-1_0-rt.tld" project="jsfteste"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-standard.jar/meta-inf/sql-1_0.tld" project="jsfteste"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-standard.jar/meta-inf/sql.tld" project="jsfteste"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-standard.jar/meta-inf/x-1_0-rt.tld" project="jsfteste"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-standard.jar/meta-inf/x-1_0.tld" project="jsfteste"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-standard.jar/meta-inf/x.tld" project="jsfteste"/>
+    </library>
+   </libraries>
+  </path>
+  <path value="C:/Users/1829799/Documents/GitHub/JavaWeb/jsfteste/WebContent/WEB-INF/lib/commons-collections.jar"/>
+  <path value="C:/Users/1829799/Documents/apache-tomcat-7.0.94/lib/tomcat-i18n-fr.jar"/>
+  <path value="C:/Users/1829799/Documents/apache-tomcat-7.0.94/lib/tomcat-api.jar"/>
+  <path value="C:/Users/1829799/Documents/apache-tomcat-7.0.94/lib/jasper-el.jar"/>
+  <path value="C:/Users/1829799/Documents/apache-tomcat-7.0.94/lib/catalina-ant.jar"/>
+ </paths>
  <validation>
-  <core validator-id="jsf-verification"/>
-  <core validator-id="jboss.jsf.core"/>
   <el>
    <linked-el length="19" name="%0" offset="692" path="%1"/>
    <linked-el length="21" name="%0" offset="423" path="%1"/>
