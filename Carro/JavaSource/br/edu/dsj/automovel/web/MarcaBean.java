@@ -3,6 +3,8 @@
  */
 package br.edu.dsj.automovel.web;
 
+import java.util.ArrayList;
+
 import javax.enterprise.context.RequestScoped;
 import javax.inject.Named;
 
@@ -27,6 +29,10 @@ public class MarcaBean {
 	public void salvarMarca() {
 		MarcaFake.cadastrarMarca(marca);
 		JSFUtils.enviarMensagemSucesso("Marca cadastrado com sucesso...");
+	}
+	
+	public ArrayList<Marca> listarMarcas() {
+		return MarcaFake.listar();
 	}
 
 	public Marca getMarca() {

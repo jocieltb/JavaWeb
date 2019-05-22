@@ -21,5 +21,9 @@ public class MarcaFake {
 		marcasCadastradas.add(marca);
 		
 	}
+	
+	public static ArrayList<Marca> listar() {
+		return marcasCadastradas;
+	}
 
 }
