@@ -110,3 +110,90 @@ Caused by: java.lang.ClassNotFoundException: org.apache.log.format.Formatter can
 2019-05-14 19:54:44,594 - Velocimacro : allowInlineLocal = false : VMs defined inline will be global in scope if allowed.
 2019-05-14 19:54:44,594 - Velocimacro : autoload off : VM system will not automatically reload global library macros
 2019-05-14 19:54:44,606 - Null reference [template '', line 29, column 17] : ${project.name} cannot be resolved.
+2019-05-21 20:02:16,137 - Log4JLogChute initialized using file 'C:\Users\1829799\Documents\GitHub\JavaWeb\.metadata\.plugins\org.jboss.tools.jst.web.ui\velocity.log'
+2019-05-21 20:02:16,149 - Starting Apache Velocity v1.5 (compiled: 2007-02-22 08:52:29)
+2019-05-21 20:02:16,149 - Default Properties File: org\apache\velocity\runtime\defaults\velocity.properties
+2019-05-21 20:02:16,149 - Trying to use logger class org.apache.velocity.runtime.log.AvalonLogChute
+2019-05-21 20:02:16,162 - Couldn't find class org.apache.velocity.runtime.log.AvalonLogChute or necessary supporting classes in classpath.
+java.lang.NoClassDefFoundError: org/apache/log/format/Formatter
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Unknown Source)
+	at org.apache.velocity.util.ClassUtils.getClass(ClassUtils.java:63)
+	at org.apache.velocity.util.ClassUtils.getNewInstance(ClassUtils.java:95)
+	at org.apache.velocity.runtime.log.LogManager.createLogChute(LogManager.java:147)
+	at org.apache.velocity.runtime.log.LogManager.updateLog(LogManager.java:208)
+	at org.apache.velocity.runtime.RuntimeInstance.initializeLog(RuntimeInstance.java:728)
+	at org.apache.velocity.runtime.RuntimeInstance.init(RuntimeInstance.java:240)
+	at org.apache.velocity.runtime.RuntimeInstance.init(RuntimeInstance.java:534)
+	at org.apache.velocity.runtime.RuntimeSingleton.init(RuntimeSingleton.java:227)
+	at org.apache.velocity.app.Velocity.init(Velocity.java:111)
+	at org.jboss.tools.jst.web.ui.operation.TemplatePreprocessor.process(TemplatePreprocessor.java:79)
+	at org.jboss.tools.jst.web.ui.operation.TemplatePreprocessor.execute(TemplatePreprocessor.java:58)
+	at org.jboss.tools.jst.web.ui.operation.WebNatureOperation.preprocessTemplate(WebNatureOperation.java:628)
+	at org.jboss.tools.jsf.ui.operation.JSFProjectCreationOperation.copyTemplate(JSFProjectCreationOperation.java:134)
+	at org.jboss.tools.jst.web.ui.operation.WebProjectCreationOperation.preCreateWebNature(WebProjectCreationOperation.java:76)
+	at org.jboss.tools.jst.web.ui.operation.WebNatureOperation.run(WebNatureOperation.java:223)
+	at org.eclipse.ui.actions.WorkspaceModifyDelegatingOperation.execute(WorkspaceModifyDelegatingOperation.java:71)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.lambda$0(WorkspaceModifyOperation.java:110)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:131)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+Caused by: java.lang.ClassNotFoundException: org.apache.log.format.Formatter cannot be found by org.apache.velocity_1.5.0.v200905192330
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:511)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:422)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:414)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:153)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 23 more
+2019-05-21 20:02:16,192 - Trying to use logger class org.apache.velocity.runtime.log.Log4JLogChute
+2019-05-21 20:02:16,192 - Using logger class org.apache.velocity.runtime.log.Log4JLogChute
+2019-05-21 20:02:16,197 - Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+2019-05-21 20:02:16,202 - ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2019-05-21 20:02:16,203 - Do unicode file recognition:  false
+2019-05-21 20:02:16,203 - FileResourceLoader : adding path 'C:\Users\1829799\Documents\GitHub\JavaWeb\.metadata\.plugins\org.jboss.tools.common.projecttemplates\templates\jsf-1.2\JSFBlankWithoutLibs'
+2019-05-21 20:02:16,255 - ResourceCache: initialized (class org.apache.velocity.runtime.resource.ResourceCacheImpl)
+2019-05-21 20:02:16,256 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2019-05-21 20:02:16,258 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2019-05-21 20:02:16,259 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2019-05-21 20:02:16,261 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2019-05-21 20:02:16,262 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2019-05-21 20:02:16,285 - Created '20' parsers.
+2019-05-21 20:02:16,289 - Velocimacro : "velocimacro.library" is not set.  Trying default library: VM_global_library.vm
+2019-05-21 20:02:16,289 - Velocimacro : Default library not found.
+2019-05-21 20:02:16,289 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+2019-05-21 20:02:16,289 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2019-05-21 20:02:16,289 - Velocimacro : allowInlineLocal = false : VMs defined inline will be global in scope if allowed.
+2019-05-21 20:02:16,289 - Velocimacro : autoload off : VM system will not automatically reload global library macros
+2019-05-21 20:02:16,302 - Null reference [template '', line 7, column 21] : ${basedir} cannot be resolved.
+2019-05-21 20:02:16,302 - Null reference [template '', line 8, column 41] : ${basedir} cannot be resolved.
+2019-05-21 20:02:16,302 - Null reference [template '', line 9, column 40] : ${webroot.dir} cannot be resolved.
+2019-05-21 20:02:16,302 - Null reference [template '', line 14, column 29] : ${webinf.dir} cannot be resolved.
+2019-05-21 20:02:16,302 - Null reference [template '', line 15, column 29] : ${webinf.dir} cannot be resolved.
+2019-05-21 20:02:16,302 - Null reference [template '', line 16, column 29] : ${webinf.dir} cannot be resolved.
+2019-05-21 20:02:16,302 - Null reference [template '', line 17, column 29] : ${webinf.dir} cannot be resolved.
+2019-05-21 20:02:16,303 - Null reference [template '', line 18, column 29] : ${webinf.dir} cannot be resolved.
+2019-05-21 20:02:16,303 - Null reference [template '', line 19, column 29] : ${webinf.dir} cannot be resolved.
+2019-05-21 20:02:16,303 - Null reference [template '', line 20, column 29] : ${webinf.dir} cannot be resolved.
+2019-05-21 20:02:16,303 - Null reference [template '', line 21, column 29] : ${webinf.dir} cannot be resolved.
+2019-05-21 20:02:16,303 - Null reference [template '', line 22, column 29] : ${webinf.dir} cannot be resolved.
+2019-05-21 20:02:16,303 - Null reference [template '', line 23, column 29] : ${classpath.external} cannot be resolved.
+2019-05-21 20:02:16,303 - Null reference [template '', line 24, column 29] : ${classpath} cannot be resolved.
+2019-05-21 20:02:16,303 - Null reference [template '', line 38, column 22] : ${webinf.dir} cannot be resolved.
+2019-05-21 20:02:16,303 - Null reference [template '', line 51, column 45] : ${webinf.dir} cannot be resolved.
+2019-05-21 20:02:16,303 - Null reference [template '', line 59, column 20] : ${webinf.dir} cannot be resolved.
+2019-05-21 20:02:16,303 - Null reference [template '', line 60, column 20] : ${webinf.dir} cannot be resolved.
+2019-05-21 20:02:16,303 - Null reference [template '', line 69, column 19] : ${build.dir} cannot be resolved.
+2019-05-21 20:02:16,303 - Null reference [template '', line 71, column 18] : ${webroot.dir} cannot be resolved.
+2019-05-21 20:02:16,303 - Null reference [template '', line 72, column 18] : ${build.dir} cannot be resolved.
+2019-05-21 20:02:16,303 - Null reference [template '', line 72, column 31] : ${project.distname} cannot be resolved.
+2019-05-21 20:02:16,303 - Null reference [template '', line 73, column 17] : ${webinf.dir} cannot be resolved.
+2019-05-21 20:02:16,303 - Null reference [template '', line 74, column 32] : ${build.dir} cannot be resolved.
+2019-05-21 20:02:16,303 - Null reference [template '', line 82, column 22] : ${deploy.dir} cannot be resolved.
+2019-05-21 20:02:16,303 - Null reference [template '', line 82, column 36] : ${project.distname} cannot be resolved.
+2019-05-21 20:02:16,303 - Null reference [template '', line 83, column 21] : ${deploy.dir} cannot be resolved.
+2019-05-21 20:02:16,303 - Null reference [template '', line 83, column 35] : ${project.distname} cannot be resolved.
+2019-05-21 20:02:16,303 - Null reference [template '', line 84, column 20] : ${build.dir} cannot be resolved.
+2019-05-21 20:02:16,303 - Null reference [template '', line 84, column 33] : ${project.distname} cannot be resolved.
+2019-05-21 20:02:16,303 - Null reference [template '', line 84, column 65] : ${deploy.dir} cannot be resolved.
+2019-05-21 20:03:45,544 - Null reference [template '', line 29, column 17] : ${project.name} cannot be resolved.
