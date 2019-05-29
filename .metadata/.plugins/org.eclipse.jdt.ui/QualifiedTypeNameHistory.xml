@@ -3,11 +3,17 @@
 <fullyQualifiedTypeName name="javax.faces.bean.ManagedBean"/>
 <fullyQualifiedTypeName name="javax.faces.bean.RequestScoped"/>
 <fullyQualifiedTypeName name="br.edu.lista01.Exercicios"/>
-<fullyQualifiedTypeName name="javax.inject.Named"/>
-<fullyQualifiedTypeName name="javax.enterprise.context.RequestScoped"/>
 <fullyQualifiedTypeName name="javax.validation.constraints.NotNull"/>
 <fullyQualifiedTypeName name="com.sun.prism.impl.BaseMesh.FaceMembers"/>
+<fullyQualifiedTypeName name="javax.validation.constraints.NotBlank"/>
+<fullyQualifiedTypeName name="javax.enterprise.context.RequestScoped"/>
+<fullyQualifiedTypeName name="br.edu.dsj.automovel.entidade.Marca"/>
+<fullyQualifiedTypeName name="br.edu.dsj.automovel.modelo.MarcaFake"/>
+<fullyQualifiedTypeName name="br.edu.dsj.automovel.util.JSFUtils"/>
 <fullyQualifiedTypeName name="javax.faces.application.FacesMessage"/>
 <fullyQualifiedTypeName name="javax.faces.context.FacesContext"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="javax.inject.Named"/>
 <fullyQualifiedTypeName name="javax.enterprise.context.ApplicationScoped"/>
+<fullyQualifiedTypeName name="br.edu.dsj.automovel.enumerado.Combustivel"/>
 </qualifiedTypeNameHistroy>

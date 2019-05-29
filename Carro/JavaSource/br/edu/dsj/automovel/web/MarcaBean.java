@@ -28,6 +28,7 @@ public class MarcaBean {
 	
 	public void salvarMarca() {
 		MarcaFake.cadastrarMarca(marca);
+		this.marca = new Marca();
 		JSFUtils.enviarMensagemSucesso("Marca cadastrado com sucesso...");
 	}
 	
