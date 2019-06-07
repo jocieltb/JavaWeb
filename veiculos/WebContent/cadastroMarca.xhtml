@@ -6,14 +6,13 @@
 	xmlns:p="http://primefaces.org/ui">
 
 <h:head>
-<style type="text/css">
+	<style type="text/css">
 
 /* .ui-panel .ui-panel-footer{ */
 /* 	text-align: center!important; */
 /* 	border: 2px dashed red; */
 /* 	border-radius: 15px; */
 /* } */
-
 </style>
 </h:head>
 <h:body>
@@ -39,12 +38,11 @@
 
 			<f:facet name="footer">
 
-				<p:commandButton value="salvar" action="#{marcaBean.salvarMarca()}"
+				<p:commandButton value="Salvar" action="#{marcaBean.salvarMarca()}"
 					update="@form" />
-				
-				<p:button value="Lista de marcas" 
-						  outcome="marcasCadastradas"
-						  target="_blank"/>	
+
+				<p:button value="Lista de marcas" outcome="marcasCadastradas"
+					target="_blank" />
 
 			</f:facet>
 
