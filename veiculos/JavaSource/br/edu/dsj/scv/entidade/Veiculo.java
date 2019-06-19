@@ -5,7 +5,6 @@ import java.util.Date;
 import javax.persistence.Entity;
 import javax.persistence.EnumType;
 import javax.persistence.Enumerated;
-import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
@@ -29,9 +28,9 @@ public class Veiculo {
 	@SequenceGenerator(name = "NUM_SEQ_VEICULO", sequenceName = "NUM_SEQ_VEICULO", allocationSize = 0)
 	@GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "NUM_SEQ_VEICULO")
 	private Integer id;
-	
+
 	@NotNull
-	@ManyToOne(fetch = FetchType.EAGER)
+	@ManyToOne
 	@JoinColumn(name = "FK_MARCA")
 	private Marca marca;
 

@@ -4,6 +4,7 @@
   <module moduleId="org.eclipse.jst.jee.server:com.andrepimenta.exemplo" serverId="WildFly 16 at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:webup" serverId="Tomcat v8.0 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:pudim" serverId="Tomcat v7.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:br.edu.dsj.scv" serverId="WildFly 16 at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:jsfteste" serverId="Tomcat v7.0 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:veiculos" serverId="WildFly 16 at localhost"/>
 </modules>

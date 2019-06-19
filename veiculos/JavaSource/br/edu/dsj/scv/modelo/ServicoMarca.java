@@ -16,14 +16,14 @@ import br.edu.dsj.scv.entidade.Marca;
  */
 @Stateless
 public class ServicoMarca {
-	
-	@PersistenceContext	
+
+	@PersistenceContext
 	private EntityManager em;
-	
+
 	public void cadastrarMarca(Marca marca) {
 		this.em.persist(marca);
 	}
-	
+
 	public void excluirMarca(Marca marca) {
 		this.em.remove(this.em.merge(marca));
 	}
@@ -31,5 +31,5 @@ public class ServicoMarca {
 	public List<Marca> listar() {
 		return this.em.createQuery("FROM Marca m", Marca.class).getResultList();
 	}
-	
+
 }
